@@ -45,10 +45,24 @@
       </dl>
     </section>
 
-    <figure class="plate">
-      <img class="fade" src="assets/img/ocean-theatre.jpg" width="1672" height="941" loading="lazy"
-           alt="A stone amphitheatre in the desert at dusk faces a giant frame holding a stormy ocean; the sea spills out as a waterfall onto the sand, where a lone hooded figure stands.">
-      <figcaption>Selected visual exploration.</figcaption>
+    <!-- Gallery: on desktop the cursor's horizontal position slides through the images; on touch screens, swipe. -->
+    <figure class="gallery">
+      <div class="viewport fade" tabindex="0" role="region" aria-roledescription="carousel" aria-label="Selected visual exploration. Use the arrow keys to browse.">
+        <div class="track">
+          <div class="slide"><img src="assets/img/ocean-theatre.jpg" width="1672" height="941" loading="lazy" data-title="The Ocean Screen in the Desert"
+               alt="A stone amphitheatre in the desert at dusk faces a giant frame holding a stormy ocean; the sea spills out as a waterfall onto the sand, where a lone hooded figure stands."></div>
+          <div class="slide"><img src="assets/img/folded-rain-city.jpg" width="1672" height="941" loading="lazy" data-title="The Folded Rain City"
+               alt="A rain-soaked city at night whose road curves up and folds into a vertical wall of towers, lit by warm lamps."></div>
+          <div class="slide"><img src="assets/img/order-from-sand.jpg" width="1672" height="941" loading="lazy" data-title="Order Emerging from Sand"
+               alt="A rippled sheet of sand floats between dark stone pillars, grains falling from its edges, with a desert sunset beyond."></div>
+          <div class="slide"><img src="assets/img/fractured-stone.jpg" width="1672" height="940" loading="lazy" data-title="Civilization Within a Fractured Stone"
+               alt="A broken stone resting on a plinth reveals a vast city of towers and bridges inside it."></div>
+        </div>
+      </div>
+      <figcaption>
+        <span>Selected visual exploration.</span>
+        <span class="now" aria-live="polite"><span class="now-title">The Ocean Screen in the Desert</span><span class="now-count">1 / 4</span></span>
+      </figcaption>
     </figure>
 
     <section class="contact" id="contact">
